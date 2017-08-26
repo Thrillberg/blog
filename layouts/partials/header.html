@@ -1,0 +1,12 @@
+<header>
+  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+  {{ if ne .IsNode true }}
+  <h2>{{ .Title }}</h2>
+  <time datetime="{{ .Date }}">{{ dateFormat "2006/01/02" .Date }}</time>
+  {{ end }}
+
+  {{ if and .IsHome (isset .Site.Params "Tagline") }}
+  <p>{{ .Site.Params.Tagline }}</p>
+  {{ end }}
+</header>

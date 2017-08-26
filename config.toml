@@ -1,0 +1,18 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Literacy is a Curse"
+theme = "paperback"
+
+publishDir = "docs"
+
+disqusShortname = "thrillberg"
+
+[params]
+AuthorName = "Eric Tillberg"
+Tagline = "just kidding"
+HomepagePosts = 3
+GithubUsername = "Thrillberg"
+TwitterUsername = "thrillberg"
+
+[blackfriday]
+extensions = ["hardLineBreak"]

@@ -1,0 +1,9 @@
+<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<small><a class="no-border-link" href="{{ .Page.Section }}">{{ .Page.Section }}</a></small>
+<div>
+  {{ if .Truncated }}
+    {{ .Summary }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+</div>
