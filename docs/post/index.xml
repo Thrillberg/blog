@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Literacy is a Curse</title>
-    <link>/</link>
-    <description>Recent content on Literacy is a Curse</description>
+    <title>Posts on Literacy is a Curse</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Literacy is a Curse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2017 23:35:53 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Aug 2017 19:37:59 -0400</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Regression</title>
-      <link>/poem/regression/</link>
-      <pubDate>Fri, 25 Aug 2017 23:35:53 -0400</pubDate>
-      
-      <guid>/poem/regression/</guid>
-      <description>&lt;p&gt;The colonizer was the adult.&lt;/p&gt;
-
-&lt;p&gt;A flurry of invention&lt;br /&gt;
-Novelty run amok&lt;br /&gt;
-He stood astride the continent&lt;br /&gt;
-Leaving a rock-solid foundation for child-scholars&lt;br /&gt;
-He learned at home and taught abroad&lt;br /&gt;
-Mastery embodied&lt;br /&gt;
-&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>From Facebook To Blog</title>

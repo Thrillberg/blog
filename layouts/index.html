@@ -1,29 +1,37 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{- $paginator := .Paginate .Data.Pages -}}
+{{- partial "header" . -}}
 
-  {{ partial "head.html" . }}
+<section class="content list">
+	{{- range $index, $element := $paginator.Pages -}}
+	<article class="thumb">
+		<div class="imgthumb">
+		{{- if .Params.thumbnail -}}
+		<a href="{{ .URL }}">{{ partial "thumbnail" .Params }}</a>
+		{{- end -}}
+		</div>
+		<div class="prevtext">
+		<h1><a href="{{ .URL }}">{{ .Title }}</a></h1>
+		<a class="no-border-link" href="{{ .Params.Category }}"><small>
+			{{ .Params.Category }}
+		</small></a>
+		{{/*
+		The "excerpt" and "description" params are used for backwards compatibility
+		with an old Jekyll theme and some of my posts already had them. New posts
+		shouldn't use these params as they might go away in the future after I've
+		cleaned up my personal blog.
+		*/}}
+		{{- partial "datetime" .Date -}}
+		{{- if .Params.excerpt -}}
+		<a href="{{ .URL }}">{{ .Params.excerpt }}</a>
+		{{- else -}}
+		{{- if .Params.description -}}
+		<p>{{ .Params.description }}</p>
+		{{- else -}}
+		{{- if .Summary -}}<a href="{{ .URL }}">{{ .Summary }}</a>{{- end -}}
+		{{- end -}}{{- end -}}
+		</div>
+	</article>
+	{{- end -}}
+</section>
 
-  <body>
-    <div class="container">
-
-      {{ partial "header.html" . }}
-
-      <section>
-
-        {{ range first (index .Site.Params "HomepagePosts" | default 3) .Data.Pages.ByDate.Reverse }}
-        <article>
-          {{ .Render "list-item-expanded" }}
-        </article>
-        {{ end }}
-
-      </section>
-
-      {{ partial "nav.html" . }}
-
-      {{ partial "footer.html" . }}
-
-    </div>
-
-  {{ partial "highlight" . }}
-  </body>
-</html>
+{{- partial "footer" . -}}

@@ -2,6 +2,7 @@
 title: "From Facebook To Blog"
 date: 2017-08-25T19:37:59-04:00
 draft: false
+category: post
 ---
 
 I've been on Facebook for many years. I took a long break some years ago and then got back on to keep in touch with a number of new friends. Lately, I've found myself more and more addicted to Facebook, thanks in large part to the news of 2017. I'd like to quit this habit but I still want to engage online. Hence, this blog.

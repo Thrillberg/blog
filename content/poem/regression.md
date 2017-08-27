@@ -1,7 +1,10 @@
 ---
 title: "Regression"
 date: 2017-08-25T23:35:53-04:00
-draft: true
+draft: false
+cover: https://upload.wikimedia.org/wikipedia/commons/e/ec/Punch_Rhodes_Colossus.png
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/e/ec/Punch_Rhodes_Colossus.png
+category: poem
 ---
 
 The colonizer was the adult.
@@ -28,6 +31,6 @@ Mastery threatened
 They laugh and carry on in their Brooklyn barber shops
 They know him, they learned what he taught
 He doesn’t know them, he didn’t learn what they tried to teach
-Now his shadowy naiveté looms to infect with ignorance
+Now his naiveté relentlessly looms overhead
 
 The colonizer is the child.

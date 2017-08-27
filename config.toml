@@ -1,18 +1,19 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Literacy is a Curse"
-theme = "paperback"
+theme = "newsprint"
 
 publishDir = "docs"
 
 disqusShortname = "thrillberg"
 
 [params]
-AuthorName = "Eric Tillberg"
-Tagline = "just kidding"
-HomepagePosts = 3
-GithubUsername = "Thrillberg"
-TwitterUsername = "thrillberg"
+# AuthorName = "Eric Tillberg"
+# Tagline = "just kidding"
+# HomepagePosts = 3
+# GithubUsername = "Thrillberg"
+# TwitterUsername = "thrillberg"
+  subtitle = "Don't worry"
 
 [blackfriday]
 extensions = ["hardLineBreak"]

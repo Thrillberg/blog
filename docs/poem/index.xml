@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Literacy is a Curse</title>
-    <link>/</link>
-    <description>Recent content on Literacy is a Curse</description>
+    <title>Poems on Literacy is a Curse</title>
+    <link>/poem/</link>
+    <description>Recent content in Poems on Literacy is a Curse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Aug 2017 23:35:53 -0400</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/poem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -25,16 +25,6 @@ He stood astride the continent&lt;br /&gt;
 Leaving a rock-solid foundation for child-scholars&lt;br /&gt;
 He learned at home and taught abroad&lt;br /&gt;
 Mastery embodied&lt;br /&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>From Facebook To Blog</title>
-      <link>/post/from-facebook-to-blog/</link>
-      <pubDate>Fri, 25 Aug 2017 19:37:59 -0400</pubDate>
-      
-      <guid>/post/from-facebook-to-blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been on Facebook for many years. I took a long break some years ago and then got back on to keep in touch with a number of new friends. Lately, I&amp;rsquo;ve found myself more and more addicted to Facebook, thanks in large part to the news of 2017. I&amp;rsquo;d like to quit this habit but I still want to engage online. Hence, this blog.&lt;br /&gt;
 &lt;/p&gt;</description>
     </item>
     
