@@ -46,12 +46,16 @@ body header h1 {
 	display: block;
 }
 
+.imgthumb img {
+	max-width: 100%;
+}
+
 .hr {
 	border-top: 1px solid #333 !important;
 }
 
 body header h2 {
-	max-width: 45rem;
+	max-width: 60rem;
 	width: 100%;
 	margin: 0 auto;
 	border-bottom: 1px solid #333;
@@ -77,7 +81,7 @@ header {
 
 section.content, header {
 	margin: 0 auto;
-	max-width: 45rem;
+	max-width: 60rem;
 	position: relative;
 	width: 100%;
 	margin-bottom: 2rem;
@@ -85,7 +89,7 @@ section.content, header {
 }
 
 section.content.list {
-	max-width: 50rem;
+	max-width: 60rem;
 	margin-bottom: 0;
 }
 
@@ -125,7 +129,7 @@ body section.content article.thumb {
 	}
 
 	body section.content article.thumb .prevtext {
-		width: 50%;
+		width: 48%;
 		position: relative;
 		display: inline-block;
 		vertical-align: middle;
@@ -134,14 +138,14 @@ body section.content article.thumb {
 
 	body section.content article.thumb:nth-child(2n+1) .prevtext {
 		text-align: left;
-		left: 1rem;
+		left: 2rem;
 		margin-left: auto;
 		margin-right: 0;
 	}
 
 	body section.content article.thumb:nth-child(2n) .prevtext {
 		text-align: right;
-		right: 1rem;
+		right: 2rem;
 		margin-left: 0;
 		margin-right: auto;
 	}
@@ -179,7 +183,6 @@ body section.content article.thumb img {
 	transition-property: border-radius;
 	transition-duration: 2s;
 	transition-timing-function: ease-in-out;
-	height: 300px;
 	display: inline-block;
 }
 
@@ -301,7 +304,7 @@ h1.entry-title {
 footer nav {
 	margin: 1rem auto;
 	position: relative;
-	max-width: 45rem;
+	max-width: 60rem;
 	width: 100%;
 }
 
@@ -398,4 +401,10 @@ small {
   border: 1px solid #550000;
   padding: 2px 5px;
   font-variant: small-caps;
+	white-space: nowrap;
+}
+
+.eidogo-player-auto {
+	margin: auto;
+  width: 44%;
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go-games on Literacy is a Curse</title>
+    <link>/go-game/</link>
+    <description>Recent content in Go-games on Literacy is a Curse</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 23:43:58 -0400</lastBuildDate>
+    
+	<atom:link href="/go-game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blitz Go Is Such a Bad Idea</title>
+      <link>/go-game/blitz-go-is-such-a-bad-idea/</link>
+      <pubDate>Tue, 29 Aug 2017 23:43:58 -0400</pubDate>
+      
+      <guid>/go-game/blitz-go-is-such-a-bad-idea/</guid>
+      <description>&lt;p&gt;I accidentally played a blitz game of Go, which is something I generally try to avoid. I prefer to play live games, but with a bit more time than 30 seconds per move.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/poem/regression/</loc>
-    <lastmod>2017-08-25T23:35:53-04:00</lastmod>
+    <loc>/go-game/blitz-go-is-such-a-bad-idea/</loc>
+    <lastmod>2017-08-29T23:43:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/from-facebook-to-blog/</loc>
-    <lastmod>2017-08-25T19:37:59-04:00</lastmod>
+    <loc>/poem/icons-for-heroes/</loc>
+    <lastmod>2017-08-28T21:29:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/on-heroic-statues/</loc>
+    <lastmod>2017-08-26T15:13:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/poem/regression/</loc>
+    <lastmod>2017-08-24T23:35:53-04:00</lastmod>
   </url>
   
   <url>
@@ -18,20 +28,26 @@
   </url>
   
   <url>
+    <loc>/go-game/</loc>
+    <lastmod>2017-08-29T23:43:58-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-08-25T23:35:53-04:00</lastmod>
+    <lastmod>2017-08-29T23:43:58-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/poem/</loc>
-    <lastmod>2017-08-25T23:35:53-04:00</lastmod>
+    <lastmod>2017-08-28T21:29:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-08-25T19:37:59-04:00</lastmod>
+    <lastmod>2017-08-26T15:13:48-04:00</lastmod>
     <priority>0</priority>
   </url>
   
