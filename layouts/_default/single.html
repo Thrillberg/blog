@@ -11,6 +11,7 @@
 	</header>
 	<section class="content{{if .Params.content_class}} {{.Params.content_class}}{{end}}">
 		{{ .Content }}
+		{{ partial "disqus" . }}
 	</section>
 </article>
 {{ partial "footer" . }}

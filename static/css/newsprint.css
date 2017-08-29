@@ -46,6 +46,10 @@ body header h1 {
 	display: block;
 }
 
+.imgthumb img {
+	max-width: 100%;
+}
+
 .hr {
 	border-top: 1px solid #333 !important;
 }
@@ -179,7 +183,6 @@ body section.content article.thumb img {
 	transition-property: border-radius;
 	transition-duration: 2s;
 	transition-timing-function: ease-in-out;
-	height: 300px;
 	display: inline-block;
 }
 

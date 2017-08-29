@@ -19,27 +19,23 @@
 
 	<body>
 		<header>
-			{{- if eq .Section "post" -}}
-			{{- if .NextInSection -}}
-			<a class="next" href="{{ .NextInSection.Permalink }}">Next</a>
+			{{- if .IsHome -}}
+			{{- partial "next" . -}}
+			{{- else -}}
+			{{- if .Prev -}}
+			<a class="next" href="{{ .Prev.Permalink }}">Next</a>
 			{{- else -}}
 			<span class="next disable">Next</span>
 			{{- end -}}
-			{{- else -}}
-			{{- if .IsHome -}}
-			{{- partial "next" . -}}
-			{{- end -}}
 			{{- end -}}
 			<h1><a href="/" class="site-title">{{ .Site.Title }}</a></h1>
-			{{- if eq .Section "post" -}}
-			{{- if .PrevInSection -}}
-			<a class="prev" href="{{ .PrevInSection.Permalink }}">Prev</a>
-			{{- else -}}
-			<span class="prev disable">Prev</span>
-			{{- end -}}
-			{{- else -}}
 			{{- if .IsHome -}}
 			{{- partial "prev" . -}}
+			{{- else -}}
+			{{- if .Next -}}
+			<a class="prev" href="{{ .Next.Permalink }}">Prev</a>
+			{{- else -}}
+			<span class="prev disable">Prev</span>
 			{{- end -}}
 			{{- end -}}
 			{{- if and .IsHome .Site.Params.subtitle -}}

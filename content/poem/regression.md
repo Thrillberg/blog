@@ -1,6 +1,6 @@
 ---
 title: "Regression"
-date: 2017-08-25T23:35:53-04:00
+date: 2017-08-24T23:35:53-04:00
 draft: false
 cover: https://upload.wikimedia.org/wikipedia/commons/e/ec/Punch_Rhodes_Colossus.png
 thumbnail: https://upload.wikimedia.org/wikipedia/commons/e/ec/Punch_Rhodes_Colossus.png
